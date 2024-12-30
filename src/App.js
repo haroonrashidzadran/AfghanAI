@@ -32,7 +32,7 @@ const App = () => {
       await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 1000));
       
       const lowerInput = currentInput.toLowerCase();
-      let botResponse = "I understand whatt you're asking. Let me help you with that.";
+      let botResponse = "I understand what you're asking. Let me help you with that.";
       
       if (lowerInput.includes('hello') || lowerInput.includes('hi')) {
         botResponse = "Hello! I'm your AI assistant. How can I help you today?";
